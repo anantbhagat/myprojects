@@ -4,13 +4,13 @@ app = Flask(__name__)
 empDB=[
  	{
  		'id':'101',
- 		'name':'Saravanan S',
- 		'title':'Technical Leader'
+ 		'name':'Test1',
+ 		'title':'Title1'
  	},
  	{
  		'id':'201',
- 		'name':'Rajkumar P',
- 		'title':'Sr Software Engineer'
+ 		'name':'Test2',
+ 		'title':'Title2'
  	}
  ]
 @app.route('/')
